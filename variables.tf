@@ -1,7 +1,7 @@
 variable "location" {
   description = "The Azure region where the private Endpoint will be created"
   type        = string
-  default     = "uksouth"
+  default     = "eastus2"
 }
 
 variable "pe_subnet_id" {
